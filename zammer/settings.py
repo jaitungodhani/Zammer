@@ -186,7 +186,5 @@ SWAGGER_SETTINGS = {
 
 # For Google Athentication
 
-GOOGLE_CLIENT_ID = (
-    "1073184524980-5otqnoq09aekntecsn9gsi4sl07peepo.apps.googleusercontent.com"
-)
-GOOGLE_CLIENT_SECRET = "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"
+GOOGLE_CLIENT_ID = config("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_SECRET = config("GOOGLE_CLIENT_SECRET")
