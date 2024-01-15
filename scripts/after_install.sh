@@ -7,14 +7,14 @@ sudo pkill -f runserver
 # sudo pkill -f tailwind
 # sudo pkill -f node
 
-cd /home/ubuntu/zammer/
+cd /home/ubuntu/Zammer/
 
 # activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
 install requirements.txt
-pip install -r /home/ubuntu/zammer/requirements.txt
+pip install -r /home/ubuntu/Zammer/requirements.txt
 
 # run server
 screen -d -m python3 manage.py runserver 0:8000
