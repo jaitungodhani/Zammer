@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/django-aws_cicd
+    destination: /home/ubuntu/zammer
 hooks:
   BeforeInstall:
       - location: scripts/before_install.sh
