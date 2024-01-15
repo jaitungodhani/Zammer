@@ -19,4 +19,4 @@ pip install --user --upgrade virtualenv
 pip install psycopg2-binary
 
 # delete app
-sudo rm -rf /home/ubuntu/django-aws_cicd
+sudo rm -rf /home/ubuntu/Zammer
